@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+adj	rule.h	/^char *adj[20] = {"beutiful","clean","fency","glamorous","handsome","alive","better","carefull","clever","obedient","silly","thankfull","rich",$/;"	v
+adjective	Correction.h	11;"	d
+comma	Correction.h	8;"	d
+comma_word	rule.h	/^char *comma_word[10] = {"but","nor","or","so","yet","when","please"};$/;"	v
+compare	Correction.h	/^int compare (char three_word_array[][15],short flag_array[] )$/;"	f
+date	Correction.h	10;"	d
+date	rule.h	/^char *date[15] = {"January","February","March","April","May","June","July","August","September","Octomber","November","December"};$/;"	v
+degree	Correction.h	9;"	d
+degree_set	rule.h	/^char *degree_set[7] = {"B.E.""B.Tech","M.Tech","M.E.","M.S.","B.com","MBA","B.A.","M.A.","PhD","B.Arch",};$/;"	v
+div	sample_tag.c	/^int div(int a,int b)$/;"	f
+excla_word	rule.h	/^char *excla_word[15] = {"Yes","Wow","Help","Stop","Whoa","Yiles","Ouch","Absolutly","Nice"};$/;"	v
+exclamation_mark	Correction.h	7;"	d
+main	demo_program.c	/^int main()$/;"	f
+main	sample_tag.c	/^int main()$/;"	f
+mul	sample_tag.c	/^int mul(int a, int b)$/;"	f
+put_exclametion_mark	place_mark.c	/^int put_exclametion_mark(char three_word_array[][15],int flag_array[],char final_array[][15],int pfinal_array)$/;"	f
+put_question_mark	place_mark.c	/^int put_question_mark(char three_word_array[][15],int flag_array[],char final_array[][15],int pfinal_array)$/;"	f
+ques_word	rule.h	/^char *ques_word[7] = {"Can","What","How","Where","Who","Do","Did","When","Is","Are","Which","Was","Were","Which","Was",$/;"	v
+question_mark	Correction.h	6;"	d
+sum	sample_tag.c	/^int sum(int a)$/;"	f
+sum	sample_tag.c	/^int sum(int a, int b)$/;"	f
+sum	sample_tag.c	/^int sum(int a, int b,int c)$/;"	f
+sum	sample_tag.c	/^int sum(int a, int b,int c,int d)$/;"	f

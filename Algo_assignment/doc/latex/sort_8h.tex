@@ -1,0 +1,351 @@
+\hypertarget{sort_8h}{}\section{/home/dhrumil/assignment\+\_\+c/\+Algo\+\_\+assignment/sort.h File Reference}
+\label{sort_8h}\index{/home/dhrumil/assignment\+\_\+c/\+Algo\+\_\+assignment/sort.\+h@{/home/dhrumil/assignment\+\_\+c/\+Algo\+\_\+assignment/sort.\+h}}
+{\ttfamily \#include $<$stdio.\+h$>$}\\*
+Include dependency graph for sort.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=213pt]{sort_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sort_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{sort_8h_ade02f829b69e6f3dc0728a94d506c12f}{fill\+Array\+Default} (int arr\mbox{[}$\,$\mbox{]}, int n)
+\begin{DoxyCompactList}\small\item\em To fill the array with zero. \end{DoxyCompactList}\item 
+void \hyperlink{sort_8h_abaf0d87927ec93821fc0638a996df362}{fill\+Array} (int arr\mbox{[}$\,$\mbox{]}, int n)
+\begin{DoxyCompactList}\small\item\em To fill the array with user input. \end{DoxyCompactList}\item 
+void \hyperlink{sort_8h_a0dfb41e81ff64e73d8af6a76c96a2e63}{swap} (int $\ast$n1, int $\ast$n2)
+\begin{DoxyCompactList}\small\item\em To swap two number. \end{DoxyCompactList}\item 
+void \hyperlink{sort_8h_ae8bb50a1a6f0f873bf2c91dd4adf4a1a}{selection\+Sort} (int arr\mbox{[}$\,$\mbox{]}, int n)
+\begin{DoxyCompactList}\small\item\em To sort data using selection sort. \end{DoxyCompactList}\item 
+void \hyperlink{sort_8h_a80a64c660726e8cfc7f933482004210f}{bubble\+Sort} (int arr\mbox{[}$\,$\mbox{]}, int n)
+\begin{DoxyCompactList}\small\item\em To sort data using bubble sort algorithm. \end{DoxyCompactList}\item 
+void \hyperlink{sort_8h_a3fde3e15492d674dbd6caf7c061a2b35}{insertion\+Sort} (int arr\mbox{[}$\,$\mbox{]}, int n)
+\begin{DoxyCompactList}\small\item\em To sort data using insertion sort algoritm. \end{DoxyCompactList}\item 
+int \hyperlink{sort_8h_a9309b42f2d8f51655338b408c3cee05b}{find\+Max} (int arr\mbox{[}$\,$\mbox{]}, int n)
+\begin{DoxyCompactList}\small\item\em To find maximux number from data. \end{DoxyCompactList}\item 
+void \hyperlink{sort_8h_a764c5d8b08ed437b88d8ab9148777b67}{count\+Sort} (int arr\mbox{[}$\,$\mbox{]}, int n, int digit)
+\begin{DoxyCompactList}\small\item\em To sort data using perticular digit in number. \end{DoxyCompactList}\item 
+void \hyperlink{sort_8h_a60a1e52389125e77c9b652383d863369}{rad\+Sort} (int arr\mbox{[}$\,$\mbox{]}, int n)
+\begin{DoxyCompactList}\small\item\em To sort data using radix sort algorithm. \end{DoxyCompactList}\item 
+void \hyperlink{sort_8h_aeb95eb63a0e297446db588c6c236a7f0}{radix\+Sort} (int arr\mbox{[}$\,$\mbox{]}, int n)
+\begin{DoxyCompactList}\small\item\em To sort nagative and positive number sepereatally using radix sort. \end{DoxyCompactList}\item 
+int \hyperlink{sort_8h_a2f0658d814c1e14b49d419add95c79b9}{partition} (int arr\mbox{[}$\,$\mbox{]}, int low, int high)
+\begin{DoxyCompactList}\small\item\em To partition array and return postion where it is partitioned. \end{DoxyCompactList}\item 
+void \hyperlink{sort_8h_a6deda3bd254bf5da0c533d0a02b81922}{quick\+Sort} (int arr\mbox{[}$\,$\mbox{]}, int low, int high)
+\begin{DoxyCompactList}\small\item\em To sort the data using quick sort algorithm. \end{DoxyCompactList}\item 
+void \hyperlink{sort_8h_ac2a8c8437419a08047fafbe4e9f1a3dd}{print\+Array} (int arr\mbox{[}$\,$\mbox{]}, int size)
+\begin{DoxyCompactList}\small\item\em To print array. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\index{sort.\+h@{sort.\+h}!bubble\+Sort@{bubble\+Sort}}
+\index{bubble\+Sort@{bubble\+Sort}!sort.\+h@{sort.\+h}}
+\subsubsection[{\texorpdfstring{bubble\+Sort(int arr[], int n)}{bubbleSort(int arr[], int n)}}]{\setlength{\rightskip}{0pt plus 5cm}void bubble\+Sort (
+\begin{DoxyParamCaption}
+\item[{int}]{arr\mbox{[}$\,$\mbox{]}, }
+\item[{int}]{n}
+\end{DoxyParamCaption}
+)}\hypertarget{sort_8h_a80a64c660726e8cfc7f933482004210f}{}\label{sort_8h_a80a64c660726e8cfc7f933482004210f}
+
+
+To sort data using bubble sort algorithm. 
+
+Function bubble\+Sort \begin{DoxyDate}{Date}
+A\+U\+G/31/2018 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em int} & arr\mbox{[}\mbox{]}\+: stored data int\+: n\+: size of data. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\index{sort.\+h@{sort.\+h}!count\+Sort@{count\+Sort}}
+\index{count\+Sort@{count\+Sort}!sort.\+h@{sort.\+h}}
+\subsubsection[{\texorpdfstring{count\+Sort(int arr[], int n, int digit)}{countSort(int arr[], int n, int digit)}}]{\setlength{\rightskip}{0pt plus 5cm}void count\+Sort (
+\begin{DoxyParamCaption}
+\item[{int}]{arr\mbox{[}$\,$\mbox{]}, }
+\item[{int}]{n, }
+\item[{int}]{digit}
+\end{DoxyParamCaption}
+)}\hypertarget{sort_8h_a764c5d8b08ed437b88d8ab9148777b67}{}\label{sort_8h_a764c5d8b08ed437b88d8ab9148777b67}
+
+
+To sort data using perticular digit in number. 
+
+Function count\+Sort \begin{DoxyDate}{Date}
+A\+U\+G/31/2018 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em int} & arr\mbox{[}\mbox{]}\+: stored data int\+: n\+: size of data. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\index{sort.\+h@{sort.\+h}!fill\+Array@{fill\+Array}}
+\index{fill\+Array@{fill\+Array}!sort.\+h@{sort.\+h}}
+\subsubsection[{\texorpdfstring{fill\+Array(int arr[], int n)}{fillArray(int arr[], int n)}}]{\setlength{\rightskip}{0pt plus 5cm}void fill\+Array (
+\begin{DoxyParamCaption}
+\item[{int}]{arr\mbox{[}$\,$\mbox{]}, }
+\item[{int}]{n}
+\end{DoxyParamCaption}
+)}\hypertarget{sort_8h_abaf0d87927ec93821fc0638a996df362}{}\label{sort_8h_abaf0d87927ec93821fc0638a996df362}
+
+
+To fill the array with user input. 
+
+Function fill\+Array \begin{DoxyDate}{Date}
+A\+U\+G/31/2018 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em int} & arr\mbox{[}\mbox{]}\+: stored data int\+: n\+: size of data. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\index{sort.\+h@{sort.\+h}!fill\+Array\+Default@{fill\+Array\+Default}}
+\index{fill\+Array\+Default@{fill\+Array\+Default}!sort.\+h@{sort.\+h}}
+\subsubsection[{\texorpdfstring{fill\+Array\+Default(int arr[], int n)}{fillArrayDefault(int arr[], int n)}}]{\setlength{\rightskip}{0pt plus 5cm}void fill\+Array\+Default (
+\begin{DoxyParamCaption}
+\item[{int}]{arr\mbox{[}$\,$\mbox{]}, }
+\item[{int}]{n}
+\end{DoxyParamCaption}
+)}\hypertarget{sort_8h_ade02f829b69e6f3dc0728a94d506c12f}{}\label{sort_8h_ade02f829b69e6f3dc0728a94d506c12f}
+
+
+To fill the array with zero. 
+
+Function fill\+Array\+Default \begin{DoxyDate}{Date}
+A\+U\+G/31/2018 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em int} & arr\mbox{[}\mbox{]}\+: stored data int\+: n\+: size of data. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\index{sort.\+h@{sort.\+h}!find\+Max@{find\+Max}}
+\index{find\+Max@{find\+Max}!sort.\+h@{sort.\+h}}
+\subsubsection[{\texorpdfstring{find\+Max(int arr[], int n)}{findMax(int arr[], int n)}}]{\setlength{\rightskip}{0pt plus 5cm}int find\+Max (
+\begin{DoxyParamCaption}
+\item[{int}]{arr\mbox{[}$\,$\mbox{]}, }
+\item[{int}]{n}
+\end{DoxyParamCaption}
+)}\hypertarget{sort_8h_a9309b42f2d8f51655338b408c3cee05b}{}\label{sort_8h_a9309b42f2d8f51655338b408c3cee05b}
+
+
+To find maximux number from data. 
+
+Function find\+Max \begin{DoxyDate}{Date}
+A\+U\+G/31/2018 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em int} & arr\mbox{[}\mbox{]}\+: stored data int\+: n\+: size of data. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\index{sort.\+h@{sort.\+h}!insertion\+Sort@{insertion\+Sort}}
+\index{insertion\+Sort@{insertion\+Sort}!sort.\+h@{sort.\+h}}
+\subsubsection[{\texorpdfstring{insertion\+Sort(int arr[], int n)}{insertionSort(int arr[], int n)}}]{\setlength{\rightskip}{0pt plus 5cm}void insertion\+Sort (
+\begin{DoxyParamCaption}
+\item[{int}]{arr\mbox{[}$\,$\mbox{]}, }
+\item[{int}]{n}
+\end{DoxyParamCaption}
+)}\hypertarget{sort_8h_a3fde3e15492d674dbd6caf7c061a2b35}{}\label{sort_8h_a3fde3e15492d674dbd6caf7c061a2b35}
+
+
+To sort data using insertion sort algoritm. 
+
+Function insertion\+Sort \begin{DoxyDate}{Date}
+A\+U\+G/31/2018 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em int} & arr\mbox{[}\mbox{]}\+: stored data int\+: n\+: size of data. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\index{sort.\+h@{sort.\+h}!partition@{partition}}
+\index{partition@{partition}!sort.\+h@{sort.\+h}}
+\subsubsection[{\texorpdfstring{partition(int arr[], int low, int high)}{partition(int arr[], int low, int high)}}]{\setlength{\rightskip}{0pt plus 5cm}int partition (
+\begin{DoxyParamCaption}
+\item[{int}]{arr\mbox{[}$\,$\mbox{]}, }
+\item[{int}]{low, }
+\item[{int}]{high}
+\end{DoxyParamCaption}
+)}\hypertarget{sort_8h_a2f0658d814c1e14b49d419add95c79b9}{}\label{sort_8h_a2f0658d814c1e14b49d419add95c79b9}
+
+
+To partition array and return postion where it is partitioned. 
+
+Function partition \begin{DoxyDate}{Date}
+A\+U\+G/31/2018 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em int} & arr\mbox{[}\mbox{]}\+: stored data int\+: n\+: size of data. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int \+: postion where it is partitioned. 
+\end{DoxyReturn}
+\index{sort.\+h@{sort.\+h}!print\+Array@{print\+Array}}
+\index{print\+Array@{print\+Array}!sort.\+h@{sort.\+h}}
+\subsubsection[{\texorpdfstring{print\+Array(int arr[], int size)}{printArray(int arr[], int size)}}]{\setlength{\rightskip}{0pt plus 5cm}void print\+Array (
+\begin{DoxyParamCaption}
+\item[{int}]{arr\mbox{[}$\,$\mbox{]}, }
+\item[{int}]{size}
+\end{DoxyParamCaption}
+)}\hypertarget{sort_8h_ac2a8c8437419a08047fafbe4e9f1a3dd}{}\label{sort_8h_ac2a8c8437419a08047fafbe4e9f1a3dd}
+
+
+To print array. 
+
+print\+Array \begin{DoxyDate}{Date}
+A\+U\+G/31/2018 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em int} & arr\mbox{[}\mbox{]}\+: stored data int\+: n\+: size of data. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\index{sort.\+h@{sort.\+h}!quick\+Sort@{quick\+Sort}}
+\index{quick\+Sort@{quick\+Sort}!sort.\+h@{sort.\+h}}
+\subsubsection[{\texorpdfstring{quick\+Sort(int arr[], int low, int high)}{quickSort(int arr[], int low, int high)}}]{\setlength{\rightskip}{0pt plus 5cm}void quick\+Sort (
+\begin{DoxyParamCaption}
+\item[{int}]{arr\mbox{[}$\,$\mbox{]}, }
+\item[{int}]{low, }
+\item[{int}]{high}
+\end{DoxyParamCaption}
+)}\hypertarget{sort_8h_a6deda3bd254bf5da0c533d0a02b81922}{}\label{sort_8h_a6deda3bd254bf5da0c533d0a02b81922}
+
+
+To sort the data using quick sort algorithm. 
+
+quick\+Sort \begin{DoxyDate}{Date}
+A\+U\+G/31/2018 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em int} & arr\mbox{[}\mbox{]}\+: stored data int\+: n\+: size of data. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\index{sort.\+h@{sort.\+h}!radix\+Sort@{radix\+Sort}}
+\index{radix\+Sort@{radix\+Sort}!sort.\+h@{sort.\+h}}
+\subsubsection[{\texorpdfstring{radix\+Sort(int arr[], int n)}{radixSort(int arr[], int n)}}]{\setlength{\rightskip}{0pt plus 5cm}void radix\+Sort (
+\begin{DoxyParamCaption}
+\item[{int}]{arr\mbox{[}$\,$\mbox{]}, }
+\item[{int}]{n}
+\end{DoxyParamCaption}
+)}\hypertarget{sort_8h_aeb95eb63a0e297446db588c6c236a7f0}{}\label{sort_8h_aeb95eb63a0e297446db588c6c236a7f0}
+
+
+To sort nagative and positive number sepereatally using radix sort. 
+
+Function radix\+Sort \begin{DoxyDate}{Date}
+A\+U\+G/31/2018 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em int} & arr\mbox{[}\mbox{]}\+: stored data int\+: n\+: size of data. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\index{sort.\+h@{sort.\+h}!rad\+Sort@{rad\+Sort}}
+\index{rad\+Sort@{rad\+Sort}!sort.\+h@{sort.\+h}}
+\subsubsection[{\texorpdfstring{rad\+Sort(int arr[], int n)}{radSort(int arr[], int n)}}]{\setlength{\rightskip}{0pt plus 5cm}void rad\+Sort (
+\begin{DoxyParamCaption}
+\item[{int}]{arr\mbox{[}$\,$\mbox{]}, }
+\item[{int}]{n}
+\end{DoxyParamCaption}
+)}\hypertarget{sort_8h_a60a1e52389125e77c9b652383d863369}{}\label{sort_8h_a60a1e52389125e77c9b652383d863369}
+
+
+To sort data using radix sort algorithm. 
+
+Function red\+Sort \begin{DoxyDate}{Date}
+A\+U\+G/31/2018 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em int} & arr\mbox{[}\mbox{]}\+: stored data int\+: n\+: size of data. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\index{sort.\+h@{sort.\+h}!selection\+Sort@{selection\+Sort}}
+\index{selection\+Sort@{selection\+Sort}!sort.\+h@{sort.\+h}}
+\subsubsection[{\texorpdfstring{selection\+Sort(int arr[], int n)}{selectionSort(int arr[], int n)}}]{\setlength{\rightskip}{0pt plus 5cm}void selection\+Sort (
+\begin{DoxyParamCaption}
+\item[{int}]{arr\mbox{[}$\,$\mbox{]}, }
+\item[{int}]{n}
+\end{DoxyParamCaption}
+)}\hypertarget{sort_8h_ae8bb50a1a6f0f873bf2c91dd4adf4a1a}{}\label{sort_8h_ae8bb50a1a6f0f873bf2c91dd4adf4a1a}
+
+
+To sort data using selection sort. 
+
+Function selection\+Sort \begin{DoxyDate}{Date}
+A\+U\+G/31/2018 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em int} & arr\mbox{[}\mbox{]}\+: stored data int\+: n\+: size of data. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\index{sort.\+h@{sort.\+h}!swap@{swap}}
+\index{swap@{swap}!sort.\+h@{sort.\+h}}
+\subsubsection[{\texorpdfstring{swap(int $\ast$n1, int $\ast$n2)}{swap(int *n1, int *n2)}}]{\setlength{\rightskip}{0pt plus 5cm}void swap (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{n1, }
+\item[{int $\ast$}]{n2}
+\end{DoxyParamCaption}
+)}\hypertarget{sort_8h_a0dfb41e81ff64e73d8af6a76c96a2e63}{}\label{sort_8h_a0dfb41e81ff64e73d8af6a76c96a2e63}
+
+
+To swap two number. 
+
+Function swap \begin{DoxyDate}{Date}
+A\+U\+G/31/2018 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em int$\ast$} & \+: n1\+: first number to swap. int$\ast$ \+: n2\+: second number to swap. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void. 
+\end{DoxyReturn}

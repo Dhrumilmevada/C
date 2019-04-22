@@ -1,0 +1,42 @@
+
+--> Context for comma(,) [done]:-
+	- Numbers
+	- before Degrees
+	- Dates
+	- Address
+	- List of item
+	- Multiple adjective back to back
+	- Before please at end of sentence
+	- two depended sentence start with When
+	- Adjective at start
+	- Addressing someone ,at start of sentence
+
+--> Context for period/full stop(.) [done]:-
+	-end of sentences
+	-in short form
+	
+
+--> Context of question mark(?) [done]:-
+	- Can, What, How, Where, Who, Do, Did, When, Is, Are, Which, Was, Were, Will, Should, May.
+	-all word should be at start of sentence.
+
+--> Context of exclamation mark(!) [done]:- 
+	-Sentence of Single Word.
+	-Yes, Wow, Help, Stop, Whoa, Yikes, Ouch, Absolutely, Nice.
+
+--> Context of semicolon(;) :-
+	-two combine sentence 
+	-for same context
+	-independent sentence 
+	-i.e. The upperclassmen are permitted off-campus lunch; the underclassmen must remain on campus.
+
+-->Context for colon(:) :-
+	- to displlay list of item under certain catagory
+	- i.e. Subject : maths, science , english.
+	- when someone extend/explain/add on somthing.
+	- i.e. Samir : how are you?
+
+-->Context of quotation(") :-
+	-for sentences/quotes of some person
+	-to display someone saying somrthing as third person in indirect speech    
+	  

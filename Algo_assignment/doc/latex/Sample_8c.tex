@@ -1,0 +1,222 @@
+\hypertarget{Sample_8c}{}\section{/home/dhrumil/assignment\+\_\+c/\+Algo\+\_\+assignment/\+Sample.c File Reference}
+\label{Sample_8c}\index{/home/dhrumil/assignment\+\_\+c/\+Algo\+\_\+assignment/\+Sample.\+c@{/home/dhrumil/assignment\+\_\+c/\+Algo\+\_\+assignment/\+Sample.\+c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\\*
+{\ttfamily \#include $<$stdlib.\+h$>$}\\*
+{\ttfamily \#include $<$unistd.\+h$>$}\\*
+Include dependency graph for Sample.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=262pt]{Sample_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{Sample_8c_af21302abdc020367cb9d4c77eba9bfa7}{D\+E\+F\+\_\+\+O\+U\+T\+\_\+\+L\+EN}~80
+\item 
+\#define \hyperlink{Sample_8c_a6f67211269e0f3ab8c59a5a94c0fd8ac}{E\+R\+R\+\_\+\+C\+M\+D\+\_\+\+L\+I\+NE}~-\/1
+\item 
+\#define \hyperlink{Sample_8c_a846551741a0d8ec6d1efd5491798d50d}{E\+R\+R\+\_\+\+F\+I\+LE}~-\/2
+\item 
+\#define \hyperlink{Sample_8c_adb83721d9bb6486d78a52f27db60eba9}{E\+R\+R\+O\+R\+\_\+\+D\+I\+SP}~printf
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{Sample_8c_acd99c1f214798d6f71f54fae793e9c00}{parse\+Cmd\+Line} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Parses the commnad line options. \end{DoxyCompactList}\item 
+int \hyperlink{Sample_8c_a6ca3699b06fef35baf0349d8641f8288}{fold\+Line} (char $\ast$in\+Buf, unsigned long bytes\+To\+Read)
+\begin{DoxyCompactList}\small\item\em Folds each line exceeding a certain limit into shorter lines. \end{DoxyCompactList}\item 
+int \hyperlink{Sample_8c_af8cb7e4491718bc4504f864fcb909324}{process\+Lines} ()
+\begin{DoxyCompactList}\small\item\em Main function of the program. \end{DoxyCompactList}\item 
+void \hyperlink{Sample_8c_aead97c99e70c0da7036fbbe230ef68b6}{print\+Usage} ()
+\begin{DoxyCompactList}\small\item\em Prints the usage of this program. \end{DoxyCompactList}\item 
+void \hyperlink{Sample_8c_a631d78806ec72c285cd1fff6f5afde13}{release\+Resources} ()
+\begin{DoxyCompactList}\small\item\em Closes all open resources. \end{DoxyCompactList}\item 
+int \hyperlink{Sample_8c_a0ddf1224851353fc92bfbff6f499fa97}{main} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Main function of the program. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+unsigned long \hyperlink{Sample_8c_a938c33cabaf53e9be65c0b022680c550}{max\+Out\+Len}
+\item 
+F\+I\+LE $\ast$ \hyperlink{Sample_8c_aefd8ef723553b9975c9879b191221ef3}{in\+File\+Ptr}
+\item 
+F\+I\+LE $\ast$ \hyperlink{Sample_8c_a127e7fd3047998f98386afdfb2471989}{out\+File\+Ptr}
+\item 
+char $\ast$ \hyperlink{Sample_8c_a68895d33cec4d40fa3e38cb4452e0d58}{input\+File\+Name}
+\item 
+char $\ast$ \hyperlink{Sample_8c_ac224b2769f256d5f706fde4c2fc17a11}{output\+File\+Name}
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\index{Sample.\+c@{Sample.\+c}!D\+E\+F\+\_\+\+O\+U\+T\+\_\+\+L\+EN@{D\+E\+F\+\_\+\+O\+U\+T\+\_\+\+L\+EN}}
+\index{D\+E\+F\+\_\+\+O\+U\+T\+\_\+\+L\+EN@{D\+E\+F\+\_\+\+O\+U\+T\+\_\+\+L\+EN}!Sample.\+c@{Sample.\+c}}
+\subsubsection[{\texorpdfstring{D\+E\+F\+\_\+\+O\+U\+T\+\_\+\+L\+EN}{DEF_OUT_LEN}}]{\setlength{\rightskip}{0pt plus 5cm}\#define D\+E\+F\+\_\+\+O\+U\+T\+\_\+\+L\+EN~80}\hypertarget{Sample_8c_af21302abdc020367cb9d4c77eba9bfa7}{}\label{Sample_8c_af21302abdc020367cb9d4c77eba9bfa7}
+\index{Sample.\+c@{Sample.\+c}!E\+R\+R\+\_\+\+C\+M\+D\+\_\+\+L\+I\+NE@{E\+R\+R\+\_\+\+C\+M\+D\+\_\+\+L\+I\+NE}}
+\index{E\+R\+R\+\_\+\+C\+M\+D\+\_\+\+L\+I\+NE@{E\+R\+R\+\_\+\+C\+M\+D\+\_\+\+L\+I\+NE}!Sample.\+c@{Sample.\+c}}
+\subsubsection[{\texorpdfstring{E\+R\+R\+\_\+\+C\+M\+D\+\_\+\+L\+I\+NE}{ERR_CMD_LINE}}]{\setlength{\rightskip}{0pt plus 5cm}\#define E\+R\+R\+\_\+\+C\+M\+D\+\_\+\+L\+I\+NE~-\/1}\hypertarget{Sample_8c_a6f67211269e0f3ab8c59a5a94c0fd8ac}{}\label{Sample_8c_a6f67211269e0f3ab8c59a5a94c0fd8ac}
+\index{Sample.\+c@{Sample.\+c}!E\+R\+R\+\_\+\+F\+I\+LE@{E\+R\+R\+\_\+\+F\+I\+LE}}
+\index{E\+R\+R\+\_\+\+F\+I\+LE@{E\+R\+R\+\_\+\+F\+I\+LE}!Sample.\+c@{Sample.\+c}}
+\subsubsection[{\texorpdfstring{E\+R\+R\+\_\+\+F\+I\+LE}{ERR_FILE}}]{\setlength{\rightskip}{0pt plus 5cm}\#define E\+R\+R\+\_\+\+F\+I\+LE~-\/2}\hypertarget{Sample_8c_a846551741a0d8ec6d1efd5491798d50d}{}\label{Sample_8c_a846551741a0d8ec6d1efd5491798d50d}
+\index{Sample.\+c@{Sample.\+c}!E\+R\+R\+O\+R\+\_\+\+D\+I\+SP@{E\+R\+R\+O\+R\+\_\+\+D\+I\+SP}}
+\index{E\+R\+R\+O\+R\+\_\+\+D\+I\+SP@{E\+R\+R\+O\+R\+\_\+\+D\+I\+SP}!Sample.\+c@{Sample.\+c}}
+\subsubsection[{\texorpdfstring{E\+R\+R\+O\+R\+\_\+\+D\+I\+SP}{ERROR_DISP}}]{\setlength{\rightskip}{0pt plus 5cm}\#define E\+R\+R\+O\+R\+\_\+\+D\+I\+SP~printf}\hypertarget{Sample_8c_adb83721d9bb6486d78a52f27db60eba9}{}\label{Sample_8c_adb83721d9bb6486d78a52f27db60eba9}
+
+
+\subsection{Function Documentation}
+\index{Sample.\+c@{Sample.\+c}!fold\+Line@{fold\+Line}}
+\index{fold\+Line@{fold\+Line}!Sample.\+c@{Sample.\+c}}
+\subsubsection[{\texorpdfstring{fold\+Line(char $\ast$in\+Buf, unsigned long bytes\+To\+Read)}{foldLine(char *inBuf, unsigned long bytesToRead)}}]{\setlength{\rightskip}{0pt plus 5cm}int fold\+Line (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{in\+Buf, }
+\item[{unsigned long}]{bytes\+To\+Read}
+\end{DoxyParamCaption}
+)}\hypertarget{Sample_8c_a6ca3699b06fef35baf0349d8641f8288}{}\label{Sample_8c_a6ca3699b06fef35baf0349d8641f8288}
+
+
+Folds each line exceeding a certain limit into shorter lines. 
+
+Function fold\+Line \begin{DoxyDate}{Date}
+J\+U\+L/16/2018 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em char} & $\ast$\+: buffer to process unsigned long\+: Bytes to read \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int\+: the remaining characters to output from current line. 
+\end{DoxyReturn}
+\index{Sample.\+c@{Sample.\+c}!main@{main}}
+\index{main@{main}!Sample.\+c@{Sample.\+c}}
+\subsubsection[{\texorpdfstring{main(int argc, char $\ast$argv[])}{main(int argc, char *argv[])}}]{\setlength{\rightskip}{0pt plus 5cm}int main (
+\begin{DoxyParamCaption}
+\item[{int}]{argc, }
+\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]}}
+\end{DoxyParamCaption}
+)}\hypertarget{Sample_8c_a0ddf1224851353fc92bfbff6f499fa97}{}\label{Sample_8c_a0ddf1224851353fc92bfbff6f499fa97}
+
+
+Main function of the program. 
+
+Function main \begin{DoxyDate}{Date}
+J\+U\+L/16/2018 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em int} & argc\+: \# of command line arguments char $\ast$\+: argv\+: the char array to hold each command line arg. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int\+: the result of execution. 0\+: success -\/ve\+: on various failures. -\/1\+: if command line is incorrect. 
+\end{DoxyReturn}
+\index{Sample.\+c@{Sample.\+c}!parse\+Cmd\+Line@{parse\+Cmd\+Line}}
+\index{parse\+Cmd\+Line@{parse\+Cmd\+Line}!Sample.\+c@{Sample.\+c}}
+\subsubsection[{\texorpdfstring{parse\+Cmd\+Line(int argc, char $\ast$argv[])}{parseCmdLine(int argc, char *argv[])}}]{\setlength{\rightskip}{0pt plus 5cm}int parse\+Cmd\+Line (
+\begin{DoxyParamCaption}
+\item[{int}]{argc, }
+\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]}}
+\end{DoxyParamCaption}
+)}\hypertarget{Sample_8c_acd99c1f214798d6f71f54fae793e9c00}{}\label{Sample_8c_acd99c1f214798d6f71f54fae793e9c00}
+
+
+Parses the commnad line options. 
+
+Function parse\+Cmd\+Line \begin{DoxyDate}{Date}
+D\+E\+C/11/2008 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em int} & argc\+: \# of command line arguments char $\ast$\+: argv\+: the char array to hold each command line arg. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int\+: the result of execution. 0\+: success -\/ve\+: on various failures. 
+\end{DoxyReturn}
+\index{Sample.\+c@{Sample.\+c}!print\+Usage@{print\+Usage}}
+\index{print\+Usage@{print\+Usage}!Sample.\+c@{Sample.\+c}}
+\subsubsection[{\texorpdfstring{print\+Usage()}{printUsage()}}]{\setlength{\rightskip}{0pt plus 5cm}void print\+Usage (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{Sample_8c_aead97c99e70c0da7036fbbe230ef68b6}{}\label{Sample_8c_aead97c99e70c0da7036fbbe230ef68b6}
+
+
+Prints the usage of this program. 
+
+Function print\+Usage \begin{DoxyDate}{Date}
+J\+U\+L/16/2018 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+None 
+\end{DoxyReturn}
+\index{Sample.\+c@{Sample.\+c}!process\+Lines@{process\+Lines}}
+\index{process\+Lines@{process\+Lines}!Sample.\+c@{Sample.\+c}}
+\subsubsection[{\texorpdfstring{process\+Lines()}{processLines()}}]{\setlength{\rightskip}{0pt plus 5cm}int process\+Lines (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{Sample_8c_af8cb7e4491718bc4504f864fcb909324}{}\label{Sample_8c_af8cb7e4491718bc4504f864fcb909324}
+
+
+Main function of the program. 
+
+Function process\+Lines \begin{DoxyDate}{Date}
+J\+U\+L/16/2018 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int\+: the result of execution. 0\+: success -\/ve\+: on various failures. 
+\end{DoxyReturn}
+\index{Sample.\+c@{Sample.\+c}!release\+Resources@{release\+Resources}}
+\index{release\+Resources@{release\+Resources}!Sample.\+c@{Sample.\+c}}
+\subsubsection[{\texorpdfstring{release\+Resources()}{releaseResources()}}]{\setlength{\rightskip}{0pt plus 5cm}void release\+Resources (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{Sample_8c_a631d78806ec72c285cd1fff6f5afde13}{}\label{Sample_8c_a631d78806ec72c285cd1fff6f5afde13}
+
+
+Closes all open resources. 
+
+Function release\+Resources \begin{DoxyDate}{Date}
+J\+U\+L/16/2018 
+\end{DoxyDate}
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+None 
+\end{DoxyReturn}
+
+
+\subsection{Variable Documentation}
+\index{Sample.\+c@{Sample.\+c}!in\+File\+Ptr@{in\+File\+Ptr}}
+\index{in\+File\+Ptr@{in\+File\+Ptr}!Sample.\+c@{Sample.\+c}}
+\subsubsection[{\texorpdfstring{in\+File\+Ptr}{inFilePtr}}]{\setlength{\rightskip}{0pt plus 5cm}F\+I\+LE$\ast$ in\+File\+Ptr}\hypertarget{Sample_8c_aefd8ef723553b9975c9879b191221ef3}{}\label{Sample_8c_aefd8ef723553b9975c9879b191221ef3}
+\index{Sample.\+c@{Sample.\+c}!input\+File\+Name@{input\+File\+Name}}
+\index{input\+File\+Name@{input\+File\+Name}!Sample.\+c@{Sample.\+c}}
+\subsubsection[{\texorpdfstring{input\+File\+Name}{inputFileName}}]{\setlength{\rightskip}{0pt plus 5cm}char$\ast$ input\+File\+Name}\hypertarget{Sample_8c_a68895d33cec4d40fa3e38cb4452e0d58}{}\label{Sample_8c_a68895d33cec4d40fa3e38cb4452e0d58}
+\index{Sample.\+c@{Sample.\+c}!max\+Out\+Len@{max\+Out\+Len}}
+\index{max\+Out\+Len@{max\+Out\+Len}!Sample.\+c@{Sample.\+c}}
+\subsubsection[{\texorpdfstring{max\+Out\+Len}{maxOutLen}}]{\setlength{\rightskip}{0pt plus 5cm}unsigned long max\+Out\+Len}\hypertarget{Sample_8c_a938c33cabaf53e9be65c0b022680c550}{}\label{Sample_8c_a938c33cabaf53e9be65c0b022680c550}
+\index{Sample.\+c@{Sample.\+c}!out\+File\+Ptr@{out\+File\+Ptr}}
+\index{out\+File\+Ptr@{out\+File\+Ptr}!Sample.\+c@{Sample.\+c}}
+\subsubsection[{\texorpdfstring{out\+File\+Ptr}{outFilePtr}}]{\setlength{\rightskip}{0pt plus 5cm}F\+I\+LE$\ast$ out\+File\+Ptr}\hypertarget{Sample_8c_a127e7fd3047998f98386afdfb2471989}{}\label{Sample_8c_a127e7fd3047998f98386afdfb2471989}
+\index{Sample.\+c@{Sample.\+c}!output\+File\+Name@{output\+File\+Name}}
+\index{output\+File\+Name@{output\+File\+Name}!Sample.\+c@{Sample.\+c}}
+\subsubsection[{\texorpdfstring{output\+File\+Name}{outputFileName}}]{\setlength{\rightskip}{0pt plus 5cm}char$\ast$ output\+File\+Name}\hypertarget{Sample_8c_ac224b2769f256d5f706fde4c2fc17a11}{}\label{Sample_8c_ac224b2769f256d5f706fde4c2fc17a11}

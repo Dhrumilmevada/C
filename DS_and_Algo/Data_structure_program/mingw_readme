@@ -1,0 +1,4 @@
+
+To compile using using mingw :- i686-w64-mingw32-gcc -o hello.exe hello.c
+
+ 
